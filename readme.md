@@ -1,3 +1,13 @@
+---
+title: "Chat-with-MySQL"                # Display title for the Space
+emoji: "📰"                                 # Space emoji (emoji-only character allowed)
+colorFrom: "blue"                           # Color for Thumbnail gradient
+colorTo: "green"                            # Color for Thumbnail gradient
+sdk: streamlit                              # SDK being used (gradio, streamlit, docker, or static)
+sdk_version: "1.38.0"                       # Specify the version of the selected SDK
+app_file: "src/app.py"                      # Path to your main application file
+pinned: false                               # Whether the Space stays on top of your profile
+---
 # MySQL Python Chatbot with GPT-4 and Mistral AI
 
 Welcome to the GitHub repository for our tutorial on building a natural language SQL chatbot using GPT-4! This project guides you through the development of a chatbot that can interpret natural language queries, generate SQL queries, and fetch results from a SQL database, all in an intuitive and user-friendly way. It utilizes the power of OpenAI's GPT-4 model, integrated with a Streamlit GUI for an enhanced interaction experience.
