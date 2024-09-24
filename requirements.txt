@@ -5,3 +5,4 @@ langchain-core
 mysql-connector-python
 groq
 langchain-groq
+psycopg2
